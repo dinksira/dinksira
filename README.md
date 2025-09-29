@@ -1,4 +1,4 @@
-<div align="center">
+3<div align="center">
 
 # Hi 👋, I'm Dinkaira Elsa
 
@@ -20,7 +20,7 @@
 
 ## 🚀 About Me
 
-Hi! I'm **Dinkaira Elsa**, a passionate **UI/UX Designer & Frontend Developer** at **Delta Labs**.  
+Hi! I'm **Dinkaira Elsa**, a passionate **UI/UX Designer & Frontend Developer**  
 I love creating seamless, intuitive digital experiences and building scalable frontend architectures.
 
 **Current Focus:**

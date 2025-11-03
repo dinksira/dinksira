@@ -1,21 +1,23 @@
 <div align="center">
 
-# 
+<!-- Animated Header -->
 <h1 style="font-size: 2.5em; margin: 20px 0; background: linear-gradient(45deg, #6366f1, #8b5cf6, #6366f1); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-size: 200% 200%; animation: gradientShift 3s ease infinite;">
   Hi 👋, I'm Dinkaira Elsa
 </h1>
 
-### Senior UI/UX Designer & Frontend Developer
+<!-- Animated Subtitle -->
+<p style="font-size: 1.2em; font-weight: 500; margin-bottom: 10px; animation: fadeInDown 0.8s ease-out;">
+  🎨 UI/UX Designer | 💻 Frontend Developer | 🎬 Creative Developer
+</p>
 
-**Crafting exceptional digital experiences through thoughtful design and robust code**
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=4000&pause=500&color=6366F1&center=true&vCenter=true&width=700&lines=Crafting+Beautiful+Interfaces;Building+Scalable+Solutions;Designing+User+Experiences;Code+%2B+Design+%3D+Magic" alt="Typing SVG" />
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-0A0E27?style=for-the-badge&logo=globe&logoColor=fff)](https://yourportfolio.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
-[![Email](https://img.shields.io/badge/Email-0A0E27?style=for-the-badge&logo=gmail&logoColor=fff)](mailto:your.email@example.com)
-
+<!-- Animated Divider -->
+<div style="margin: 30px 0; animation: slideIn 1s ease-out;">
+  <svg width="100" height="2" style="margin: 0 auto;">
+    <line x1="0" y1="1" x2="100" y2="1" stroke="#6366f1" stroke-width="2" style="animation: lineGrow 2s ease-out forwards;" />
+  </svg>
 </div>
-
----
 
 ## 🎯 Professional Overview
 

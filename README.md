@@ -104,6 +104,21 @@ I'm a results-driven **UI/UX Designer & Frontend Developer** with expertise in b
 </p>
 
 ---
+# 📊 Language Statistics & GitHub Achievements
+
+<!-- <CHANGE> Added language stats and GitHub trophy display -->
+
+### Top Languages
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dinksira&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
+</p>
+
+### GitHub Trophies
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=dinksira&theme=onedark&no-frame=true&row=2&column=3" alt="GitHub Trophies" />
+</p>
+
+---
 
 ## 🚀 Featured Projects
 

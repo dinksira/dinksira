@@ -108,15 +108,18 @@ I'm a results-driven **UI/UX Designer & Frontend Developer** with expertise in b
 
 <!-- <CHANGE> Added language stats and GitHub trophy display -->
 
-### Top Languages
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dinksira&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
-</p>
-
-### GitHub Trophies
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=dinksira&theme=onedark&no-frame=true&row=2&column=3" alt="GitHub Trophies" />
-</p>
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <h3>Top Languages</h3>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dinksira&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
+    </td>
+    <td width="50%" align="center">
+      <h3>GitHub Trophies</h3>
+      <img src="https://github-profile-trophy.vercel.app/?username=dinksira&theme=onedark&no-frame=true&row=2&column=3" alt="GitHub Trophies" />
+    </td>
+  </tr>
+</table>
 
 ---
 

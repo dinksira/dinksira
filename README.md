@@ -35,15 +35,6 @@ I'm a results-driven **UI/UX Designer & Frontend Developer** with expertise in b
 
 ---
 
-## 📊 Impact & Contributions
-
-- 🎨 Designed and shipped **digital products**
-- ⚡ Improved frontend performance
-- 📱 Led mobile-first design approach, increasing mobile engagement
-- 🛠️ Built reusable component libraries reducing development time
-
----
-
 ## 🎨 Design & UX Expertise
 
 ### Design Tools & Platforms

@@ -86,20 +86,6 @@ I love creating seamless, intuitive digital experiences and building scalable fr
 
 ---
 
-## 🎮 3D Design Showcase
+[![3D Portfolio](https://img.shields.io/badge/🚀_View_Interactive_3D_Portfolio-6366F1?style=for-the-badge&logo=three.js&logoColor=white)](https://dinksira.github.io/3d-portfolio)
+[![Live Demo](https://img.shields.io/badge/🎮_Live_3D_Demo-8B5CF6?style=for-the-badge&logo=webgl&logoColor=white)](https://dinksira.github.io/interactive-design)
 
-<div align="center">
-
-```javascript
-// Creating digital experiences in 3D space
-class DigitalDesign {
-  constructor() {
-    this.creativity = '∞';
-    this.innovation = true;
-    this.precision = '100%';
-  }
-  
-  createDesign() {
-    return 'Amazing User Experience ✨';
-  }
-}

@@ -108,13 +108,13 @@ I'm a results-driven **UI/UX Designer & Frontend Developer** with expertise in b
 ## 🚀 Featured Projects
 
 ### Design System Excellence
-Architected a comprehensive design system with **200+ components** serving multiple product lines, resulting in **6-month faster feature delivery** and consistent UX across all platforms.
+Architected a comprehensive design system with **components** serving multiple product lines, resulting in **faster feature delivery** and consistent UX across all platforms.
 
 ### Performance & Scale
-Led a major frontend refactoring, implementing code-splitting and lazy loading techniques that improved **Lighthouse scores by 45%** and reduced Core Web Vitals issues by **80%**.
+Led a major frontend refactoring, implementing code-splitting and lazy loading techniques that improved **Lighthouse scores** and reduced Core Web Vitals issues.
 
 ### Mobile Innovation
-Designed and developed a native mobile experience using **React Native**, achieving **4.8★ rating** with 50k+ downloads in first quarter.
+Designed and developed a native mobile experience using **React Native**.
 
 ---
 
@@ -131,7 +131,7 @@ Designed and developed a native mobile experience using **React Native**, achiev
 
 **Additional Expertise**
 - **UX Research** — User interviews, wireframing, prototyping, A/B testing
-- **Accessibility** — WCAG 2.1 AA compliance, semantic HTML, screen reader optimization
+- **Accessibility** — semantic HTML, screen reader optimization
 - **Performance** — Web optimization, bundle analysis, caching strategies
 - **DevOps Awareness** — Docker, basic deployment, environment configuration
 
@@ -143,7 +143,7 @@ I'm always interested in discussing design systems, frontend architecture, and b
 
 <div align="center">
 
-[📧 Email](mailto:your.dinksiraelisa@gmail.com) • [💼 LinkedIn](https://www.linkedin.com/in/dinksira-elsa-13904b319/) • [🌐 Portfolio](https://dinksiraelsa.vercel.app/)
+[📧 Email](mailto:dinksiraelisa@gmail.com) • [💼 LinkedIn](https://www.linkedin.com/in/dinksira-elsa-13904b319/) • [🌐 Portfolio](https://dinksiraelsa.vercel.app/)
 
 </div>
 

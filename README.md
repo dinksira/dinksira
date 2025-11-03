@@ -37,10 +37,10 @@ I'm a results-driven **UI/UX Designer & Frontend Developer** with expertise in b
 
 ## 📊 Impact & Contributions
 
-- 🎨 Designed and shipped **15+ digital products** used by 100k+ users
-- ⚡ Improved frontend performance by **40%** through architecture optimization
-- 📱 Led mobile-first design approach, increasing mobile engagement by **35%**
-- 🛠️ Built reusable component libraries reducing development time by **50%**
+- 🎨 Designed and shipped **digital products**
+- ⚡ Improved frontend performance
+- 📱 Led mobile-first design approach, increasing mobile engagement
+- 🛠️ Built reusable component libraries reducing development time
 
 ---
 
@@ -143,7 +143,7 @@ I'm always interested in discussing design systems, frontend architecture, and b
 
 <div align="center">
 
-[📧 Email](mailto:your.email@example.com) • [💼 LinkedIn](https://linkedin.com/in/yourprofile) • [🌐 Portfolio](https://yourportfolio.com) • [🐙 GitHub](https://github.com/yourprofile)
+[📧 Email](mailto:your.dinksiraelisa@gmail.com) • [💼 LinkedIn](https://www.linkedin.com/in/dinksira-elsa-13904b319/) • [🌐 Portfolio](https://dinksiraelsa.vercel.app/)
 
 </div>
 

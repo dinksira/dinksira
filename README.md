@@ -83,9 +83,3 @@ I love creating seamless, intuitive digital experiences and building scalable fr
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
 </p>
-
----
-
-[![3D Portfolio](https://img.shields.io/badge/🚀_View_Interactive_3D_Portfolio-6366F1?style=for-the-badge&logo=three.js&logoColor=white)](https://dinksira.github.io/3d-portfolio)
-[![Live Demo](https://img.shields.io/badge/🎮_Live_3D_Demo-8B5CF6?style=for-the-badge&logo=webgl&logoColor=white)](https://dinksira.github.io/interactive-design)
-

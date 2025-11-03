@@ -1,152 +1,261 @@
 <div align="center">
 
-# 👋 Dinkaira Elsa
+<!-- Animated Header -->
+<h1 style="font-size: 2.5em; margin: 20px 0; background: linear-gradient(45deg, #6366f1, #8b5cf6, #6366f1); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-size: 200% 200%; animation: gradientShift 3s ease infinite;">
+  Hi 👋, I'm Dinkaira Elsa
+</h1>
 
-### Senior UI/UX Designer & Frontend Developer
+<!-- Animated Subtitle -->
+<p style="font-size: 1.2em; font-weight: 500; margin-bottom: 10px; animation: fadeInDown 0.8s ease-out;">
+  🎨 UI/UX Designer | 💻 Frontend Developer | 🎬 Creative Developer
+</p>
 
-**Crafting exceptional digital experiences through thoughtful design and robust code**
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=4000&pause=500&color=6366F1&center=true&vCenter=true&width=700&lines=Crafting+Beautiful+Interfaces;Building+Scalable+Solutions;Designing+User+Experiences;Code+%2B+Design+%3D+Magic" alt="Typing SVG" />
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-0A0E27?style=for-the-badge&logo=globe&logoColor=fff)](https://yourportfolio.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
-[![Email](https://img.shields.io/badge/Email-0A0E27?style=for-the-badge&logo=gmail&logoColor=fff)](mailto:your.email@example.com)
+<!-- Animated Divider -->
+<div style="margin: 30px 0; animation: slideIn 1s ease-out;">
+  <svg width="100" height="2" style="margin: 0 auto;">
+    <line x1="0" y1="1" x2="100" y2="1" stroke="#6366f1" stroke-width="2" style="animation: lineGrow 2s ease-out forwards;" />
+  </svg>
+</div>
 
 </div>
 
 ---
 
-## 🎯 Professional Overview
+## ✨ About Me
 
-I'm a results-driven **UI/UX Designer & Frontend Developer** with expertise in building scalable design systems and user-centered applications. I specialize in translating complex requirements into intuitive interfaces while maintaining clean, maintainable code architecture.
+I'm a **UI/UX Designer & Frontend Developer** passionate about creating seamless digital experiences and building scalable, performant applications. With expertise in both design systems and modern frontend frameworks, I bridge the gap between beautiful design and robust code.
 
-**Core Competencies:**
-- **Design Systems & Component Libraries** — Building reusable, accessible design patterns
-- **User Experience Strategy** — Research-driven design decisions and user testing
-- **Frontend Architecture** — React ecosystems, state management, performance optimization
-- **Design-to-Code** — Bridging design and development for pixel-perfect implementations
-- **Accessibility & Performance** — WCAG compliance and Core Web Vitals optimization
-
-**Philosophy:**  
-*"Great design is invisible. It solves problems elegantly while delighting users at every interaction."*
-
----
-
-## 📊 Impact & Contributions
-
-- 🎨 Designed and shipped **15+ digital products** used by 100k+ users
-- ⚡ Improved frontend performance by **40%** through architecture optimization
-- 📱 Led mobile-first design approach, increasing mobile engagement by **35%**
-- 🛠️ Built reusable component libraries reducing development time by **50%**
-
----
-
-## 🎨 Design & UX Expertise
-
-### Design Tools & Platforms
-<p align="center">
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
-  <img src="https://img.shields.io/badge/Adobe%20XD-FF61F6?style=for-the-badge&logo=adobe%20xd&logoColor=white" alt="Adobe XD" />
-  <img src="https://img.shields.io/badge/Adobe%20Illustrator-FF9A00?style=for-the-badge&logo=adobe%20illustrator&logoColor=white" alt="Illustrator" />
-  <img src="https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=adobe%20photoshop&logoColor=white" alt="Photoshop" />
-  <img src="https://img.shields.io/badge/Framer-0055FF?style=for-the-badge&logo=framer&logoColor=white" alt="Framer" />
-  <img src="https://img.shields.io/badge/Protopie-000000?style=for-the-badge&logo=protopie&logoColor=fff" alt="Protopie" />
-</p>
-
-**Specialization:** Design systems, user research, information architecture, interaction design, prototyping, usability testing
+<table style="width: 100%; border-collapse: collapse;">
+  <tr>
+    <td style="padding: 15px; animation: fadeInUp 0.8s ease-out 0.2s both;">
+      <strong>🎯 Current Focus</strong><br/>
+      Building intuitive interfaces with modern frameworks
+    </td>
+    <td style="padding: 15px; animation: fadeInUp 0.8s ease-out 0.4s both;">
+      <strong>🚀 Specialization</strong><br/>
+      Design systems & component libraries
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 15px; animation: fadeInUp 0.8s ease-out 0.6s both;">
+      <strong>💡 Philosophy</strong><br/>
+      Design is how it works, not just how it looks
+    </td>
+    <td style="padding: 15px; animation: fadeInUp 0.8s ease-out 0.8s both;">
+      <strong>🎨 Approach</strong><br/>
+      User-centered, data-driven design decisions
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 💻 Frontend Development Stack
+## 🛠️ Tech Stack & Tools
 
-### Core Technologies
-<p align="center">
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular" />
-  <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D" alt="Vue.js" />
+### 🎨 Design & Creative Tools
+<p align="center" style="animation: fadeInLeft 0.8s ease-out 0.3s both;">
+  <a href="#" style="display: inline-block; margin: 5px; transition: transform 0.3s, filter 0.3s;" onmouseover="this.style.transform='scale(1.1) translateY(-5px)'; this.style.filter='drop-shadow(0 8px 12px rgba(99,102,241,0.4))';" onmouseout="this.style.transform='scale(1) translateY(0)'; this.style.filter='none';">
+    <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
+  </a>
+  <a href="#" style="display: inline-block; margin: 5px; transition: transform 0.3s, filter 0.3s;" onmouseover="this.style.transform='scale(1.1) translateY(-5px)'; this.style.filter='drop-shadow(0 8px 12px rgba(255,154,0,0.4))';" onmouseout="this.style.transform='scale(1) translateY(0)'; this.style.filter='none';">
+    <img src="https://img.shields.io/badge/Adobe%20Illustrator-FF9A00?style=for-the-badge&logo=adobe%20illustrator&logoColor=white" />
+  </a>
+  <a href="#" style="display: inline-block; margin: 5px; transition: transform 0.3s, filter 0.3s;" onmouseover="this.style.transform='scale(1.1) translateY(-5px)'; this.style.filter='drop-shadow(0 8px 12px rgba(49,168,255,0.4))';" onmouseout="this.style.transform='scale(1) translateY(0)'; this.style.filter='none';">
+    <img src="https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=adobe%20photoshop&logoColor=white" />
+  </a>
+  <a href="#" style="display: inline-block; margin: 5px; transition: transform 0.3s, filter 0.3s;" onmouseover="this.style.transform='scale(1.1) translateY(-5px)'; this.style.filter='drop-shadow(0 8px 12px rgba(0,85,255,0.4))';" onmouseout="this.style.transform='scale(1) translateY(0)'; this.style.filter='none';">
+    <img src="https://img.shields.io/badge/Framer-0055FF?style=for-the-badge&logo=framer&logoColor=white" />
+  </a>
+  <a href="#" style="display: inline-block; margin: 5px; transition: transform 0.3s, filter 0.3s;" onmouseover="this.style.transform='scale(1.1) translateY(-5px)'; this.style.filter='drop-shadow(0 8px 12px rgba(153,153,255,0.4))';" onmouseout="this.style.transform='scale(1) translateY(0)'; this.style.filter='none';">
+    <img src="https://img.shields.io/badge/Adobe%20After%20Effects-9999FF?style=for-the-badge&logo=adobe%20after%20effects&logoColor=white" />
+  </a>
 </p>
 
-### Styling & UI Frameworks
-<p align="center">
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="Sass" />
-  <img src="https://img.shields.io/badge/Material_UI-007FFF?style=for-the-badge&logo=mui&logoColor=white" alt="Material UI" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+### 💻 Frontend Development
+<p align="center" style="animation: fadeInRight 0.8s ease-out 0.3s both;">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" style="display: inline-block; margin: 5px; transition: transform 0.3s, filter 0.3s;" onmouseover="this.style.transform='scale(1.1) rotateZ(5deg)'; this.style.filter='drop-shadow(0 8px 12px rgba(97,218,251,0.4))';" onmouseout="this.style.transform='scale(1) rotateZ(0)'; this.style.filter='none';" />
+  <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" style="display: inline-block; margin: 5px; transition: transform 0.3s, filter 0.3s;" onmouseover="this.style.transform='scale(1.1) rotateZ(-5deg)'; this.style.filter='drop-shadow(0 8px 12px rgba(221,0,49,0.4))';" onmouseout="this.style.transform='scale(1) rotateZ(0)'; this.style.filter='none';" />
+  <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D" style="display: inline-block; margin: 5px; transition: transform 0.3s, filter 0.3s;" onmouseover="this.style.transform='scale(1.1) rotateZ(5deg)'; this.style.filter='drop-shadow(0 8px 12px rgba(79,192,141,0.4))';" onmouseout="this.style.transform='scale(1) rotateZ(0)'; this.style.filter='none';" />
+  <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" style="display: inline-block; margin: 5px; transition: transform 0.3s, filter 0.3s;" onmouseover="this.style.transform='scale(1.1) rotateZ(-5deg)'; this.style.filter='drop-shadow(0 8px 12px rgba(97,218,251,0.4))';" onmouseout="this.style.transform='scale(1) rotateZ(0)'; this.style.filter='none';" />
+  <img src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white" style="display: inline-block; margin: 5px; transition: transform 0.3s, filter 0.3s;" onmouseover="this.style.transform='scale(1.1) rotateZ(5deg)'; this.style.filter='drop-shadow(0 8px 12px rgba(89,61,136,0.4))';" onmouseout="this.style.transform='scale(1) rotateZ(0)'; this.style.filter='none';" />
 </p>
 
-### State Management & Development
-<p align="center">
-  <img src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white" alt="Redux" />
-  <img src="https://img.shields.io/badge/React_Query-FF4154?style=for-the-badge&logo=react-query&logoColor=white" alt="React Query" />
-  <img src="https://img.shields.io/badge/Webpack-8DD6F9?style=for-the-badge&logo=webpack&logoColor=black" alt="Webpack" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+### 🎨 Styling & UI Frameworks
+<p align="center" style="animation: fadeInUp 0.8s ease-out 0.3s both;">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" style="display: inline-block; margin: 5px; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-3px)'; this.style.filter='drop-shadow(0 6px 10px rgba(56,178,172,0.3))';" onmouseout="this.style.transform='translateY(0)'; this.style.filter='none';" />
+  <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" style="display: inline-block; margin: 5px; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-3px)'; this.style.filter='drop-shadow(0 6px 10px rgba(86,61,124,0.3))';" onmouseout="this.style.transform='translateY(0)'; this.style.filter='none';" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" style="display: inline-block; margin: 5px; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-3px)'; this.style.filter='drop-shadow(0 6px 10px rgba(21,114,182,0.3))';" onmouseout="this.style.transform='translateY(0)'; this.style.filter='none';" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" style="display: inline-block; margin: 5px; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-3px)'; this.style.filter='drop-shadow(0 6px 10px rgba(227,79,38,0.3))';" onmouseout="this.style.transform='translateY(0)'; this.style.filter='none';" />
+  <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" style="display: inline-block; margin: 5px; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-3px)'; this.style.filter='drop-shadow(0 6px 10px rgba(204,102,153,0.3))';" onmouseout="this.style.transform='translateY(0)'; this.style.filter='none';" />
 </p>
 
-### Languages
-<p align="center">
-  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" alt="Python" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="Java" />
+### 💻 Programming Languages
+<p align="center" style="animation: fadeInDown 0.8s ease-out 0.4s both;">
+  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" style="display: inline-block; margin: 5px; transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);" onmouseover="this.style.transform='scale(1.15) rotate(-5deg)'; this.style.filter='drop-shadow(0 8px 15px rgba(247,223,30,0.5))';" onmouseout="this.style.transform='scale(1) rotate(0)'; this.style.filter='none';" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" style="display: inline-block; margin: 5px; transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);" onmouseover="this.style.transform='scale(1.15) rotate(5deg)'; this.style.filter='drop-shadow(0 8px 15px rgba(0,122,204,0.5))';" onmouseout="this.style.transform='scale(1) rotate(0)'; this.style.filter='none';" />
+  <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" style="display: inline-block; margin: 5px; transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);" onmouseover="this.style.transform='scale(1.15) rotate(-5deg)'; this.style.filter='drop-shadow(0 8px 15px rgba(255,212,59,0.5))';" onmouseout="this.style.transform='scale(1) rotate(0)'; this.style.filter='none';" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" style="display: inline-block; margin: 5px; transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);" onmouseover="this.style.transform='scale(1.15) rotate(5deg)'; this.style.filter='drop-shadow(0 8px 15px rgba(237,139,0,0.5))';" onmouseout="this.style.transform='scale(1) rotate(0)'; this.style.filter='none';" />
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" style="display: inline-block; margin: 5px; transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);" onmouseover="this.style.transform='scale(1.15) rotate(-5deg)'; this.style.filter='drop-shadow(0 8px 15px rgba(0,89,156,0.5))';" onmouseout="this.style.transform='scale(1) rotate(0)'; this.style.filter='none';" />
 </p>
 
-### Testing & Quality Assurance
-<p align="center">
-  <img src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white" alt="Jest" />
-  <img src="https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white" alt="Cypress" />
-  <img src="https://img.shields.io/badge/Storybook-FF4785?style=for-the-badge&logo=storybook&logoColor=white" alt="Storybook" />
+### 📱 Mobile Development
+<p align="center" style="animation: slideInUp 0.8s ease-out 0.4s both;">
+  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" style="display: inline-block; margin: 5px;" />
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" style="display: inline-block; margin: 5px;" />
+  <img src="https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white" style="display: inline-block; margin: 5px;" />
+</p>
+
+### 🗄️ Backend & Database
+<p align="center" style="animation: slideInDown 0.8s ease-out 0.4s both;">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" style="display: inline-block; margin: 5px;" />
+  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" style="display: inline-block; margin: 5px;" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=white" style="display: inline-block; margin: 5px;" />
+</p>
+
+### 🛠️ Tools & Technologies
+<p align="center" style="animation: fadeInUp 0.8s ease-out 0.5s both;">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" style="display: inline-block; margin: 5px;" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" style="display: inline-block; margin: 5px;" />
 </p>
 
 ---
 
-## 🚀 Featured Projects
+<style>
+  @keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
 
-### Design System Excellence
-Architected a comprehensive design system with **200+ components** serving multiple product lines, resulting in **6-month faster feature delivery** and consistent UX across all platforms.
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 
-### Performance & Scale
-Led a major frontend refactoring, implementing code-splitting and lazy loading techniques that improved **Lighthouse scores by 45%** and reduced Core Web Vitals issues by **80%**.
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 
-### Mobile Innovation
-Designed and developed a native mobile experience using **React Native**, achieving **4.8★ rating** with 50k+ downloads in first quarter.
+  @keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translateX(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      width: 0;
+    }
+    to {
+      opacity: 1;
+      width: 100px;
+    }
+  }
+
+  @keyframes slideInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes slideInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes lineGrow {
+    from {
+      stroke-dasharray: 100;
+      stroke-dashoffset: 100;
+    }
+    to {
+      stroke-dasharray: 100;
+      stroke-dashoffset: 0;
+    }
+  }
+</style>
 
 ---
 
-## 🛠️ Supporting Skills
+<div align="center" style="animation: fadeInUp 0.8s ease-out 0.6s both;">
+  
+### 📊 GitHub Stats
 
-**Development Tools & Workflows**
-<p align="center">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/CI%2FCD-2496ED?style=for-the-badge&logo=github-actions&logoColor=white" alt="CI/CD" />
-</p>
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&text_color=8B949E&icon_color=6366F1)
 
-**Additional Expertise**
-- **UX Research** — User interviews, wireframing, prototyping, A/B testing
-- **Accessibility** — WCAG 2.1 AA compliance, semantic HTML, screen reader optimization
-- **Performance** — Web optimization, bundle analysis, caching strategies
-- **DevOps Awareness** — Docker, basic deployment, environment configuration
-
----
-
-## 📬 Let's Collaborate
-
-I'm always interested in discussing design systems, frontend architecture, and building delightful user experiences.
-
-<div align="center">
-
-[📧 Email](mailto:your.email@example.com) • [💼 LinkedIn](https://linkedin.com/in/yourprofile) • [🌐 Portfolio](https://yourportfolio.com) • [🐙 GitHub](https://github.com/yourprofile)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=your-username&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&text_color=8B949E)
 
 </div>
 
 ---
 
-<div align="center">
+<div align="center" style="margin-top: 40px; animation: fadeInUp 0.8s ease-out 0.7s both;">
 
-**Passionate about pixel-perfect design, clean code, and exceptional user experiences.**
+### 🤝 Connect With Me
+
+<a href="https://linkedin.com/in/your-profile" style="display: inline-block; margin: 10px 15px; transition: all 0.3s ease;">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" style="transition: transform 0.3s, filter 0.3s;" onmouseover="this.style.transform='scale(1.1) translateY(-3px)'; this.style.filter='drop-shadow(0 8px 12px rgba(10,102,194,0.5))';" onmouseout="this.style.transform='scale(1) translateY(0)'; this.style.filter='none';" />
+</a>
+
+<a href="https://twitter.com/your-handle" style="display: inline-block; margin: 10px 15px; transition: all 0.3s ease;">
+  <img src="https://img.shields.io/badge/Twitter-1D9BF0?style=for-the-badge&logo=twitter&logoColor=white" style="transition: transform 0.3s, filter 0.3s;" onmouseover="this.style.transform='scale(1.1) translateY(-3px)'; this.style.filter='drop-shadow(0 8px 12px rgba(29,155,240,0.5))';" onmouseout="this.style.transform='scale(1) translateY(0)'; this.style.filter='none';" />
+</a>
+
+<a href="https://your-portfolio.com" style="display: inline-block; margin: 10px 15px; transition: all 0.3s ease;">
+  <img src="https://img.shields.io/badge/Portfolio-6366F1?style=for-the-badge&logo=vercel&logoColor=white" style="transition: transform 0.3s, filter 0.3s;" onmouseover="this.style.transform='scale(1.1) translateY(-3px)'; this.style.filter='drop-shadow(0 8px 12px rgba(99,102,241,0.5))';" onmouseout="this.style.transform='scale(1) translateY(0)'; this.style.filter='none';" />
+</a>
+
+<a href="mailto:your-email@example.com" style="display: inline-block; margin: 10px 15px; transition: all 0.3s ease;">
+  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" style="transition: transform 0.3s, filter 0.3s;" onmouseover="this.style.transform='scale(1.1) translateY(-3px)'; this.style.filter='drop-shadow(0 8px 12px rgba(209,72,54,0.5))';" onmouseout="this.style.transform='scale(1) translateY(0)'; this.style.filter='none';" />
+</a>
 
 </div>
-\`\`\`
+
+<div align="center" style="margin-top: 40px; font-size: 0.9em; color: #8B949E; animation: fadeInUp 0.8s ease-out 0.8s both;">
+
+⭐ If you find my work interesting, feel free to star and follow! | Built with ❤️ using design & code
+
+</div>

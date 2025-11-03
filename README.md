@@ -1,203 +1,700 @@
-<div align="center">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinkaira Elsa - UI/UX Designer & Frontend Developer</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.min.js"></script>
+    <style>
+        :root {
+            --primary: #6366F1;
+            --primary-dark: #4F46E5;
+            --dark: #0F172A;
+            --light: #F8FAFC;
+            --gray: #64748B;
+            --gray-light: #E2E8F0;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: var(--dark);
+            color: var(--light);
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header Section */
+        .header {
+            text-align: center;
+            padding: 60px 0 40px;
+            background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 30% 20%, rgba(99, 102, 241, 0.1) 0%, transparent 50%);
+            z-index: 0;
+        }
+        
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid var(--primary);
+            margin: 0 auto 20px;
+            background: linear-gradient(45deg, #4F46E5, #7C3AED);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+            color: white;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .name {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            background: linear-gradient(to right, #8B5CF6, #6366F1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .tagline {
+            font-size: 1.2rem;
+            color: var(--gray-light);
+            margin-bottom: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .typing-container {
+            height: 60px;
+            margin: 20px 0;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .typing-text {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--primary);
+            display: inline-block;
+            border-right: 3px solid var(--primary);
+            white-space: nowrap;
+            overflow: hidden;
+            animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+        }
+        
+        @keyframes typing {
+            from { width: 0 }
+            to { width: 100% }
+        }
+        
+        @keyframes blink-caret {
+            from, to { border-color: transparent }
+            50% { border-color: var(--primary) }
+        }
+        
+        /* About Section */
+        .section {
+            padding: 60px 0;
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 40px;
+            position: relative;
+        }
+        
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background: var(--primary);
+            border-radius: 2px;
+        }
+        
+        .about-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            align-items: center;
+        }
+        
+        .about-text {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .about-text p {
+            margin-bottom: 20px;
+            color: var(--gray-light);
+        }
+        
+        .focus-list {
+            list-style: none;
+            margin-top: 20px;
+        }
+        
+        .focus-list li {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .focus-list li::before {
+            content: '▹';
+            color: var(--primary);
+            margin-right: 10px;
+        }
+        
+        /* 3D Model Section */
+        .model-container {
+            flex: 1;
+            min-width: 300px;
+            height: 400px;
+            position: relative;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            background: linear-gradient(145deg, #1E293B, #0F172A);
+        }
+        
+        #model-canvas {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+        
+        /* Tools Section */
+        .tools-section {
+            background: linear-gradient(135deg, #1E293B 0%, #0F172A 100%);
+            padding: 60px 0;
+        }
+        
+        .tools-category {
+            margin-bottom: 40px;
+        }
+        
+        .category-title {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+        }
+        
+        .category-title::before {
+            content: '';
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            background: var(--primary);
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            gap: 15px;
+        }
+        
+        .tool-item {
+            background: rgba(30, 41, 59, 0.7);
+            border-radius: 8px;
+            padding: 15px 10px;
+            text-align: center;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(99, 102, 241, 0.1);
+        }
+        
+        .tool-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(99, 102, 241, 0.2);
+            border-color: var(--primary);
+        }
+        
+        .tool-icon {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            color: var(--primary);
+        }
+        
+        .tool-name {
+            font-size: 0.9rem;
+            color: var(--gray-light);
+        }
+        
+        /* Stats Section */
+        .stats-section {
+            padding: 60px 0;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        
+        .stat-card {
+            background: linear-gradient(135deg, #1E293B 0%, #334155 100%);
+            border-radius: 12px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: var(--primary);
+            margin-bottom: 10px;
+        }
+        
+        .stat-label {
+            color: var(--gray-light);
+            font-size: 1rem;
+        }
+        
+        /* Contact Section */
+        .contact-section {
+            background: linear-gradient(135deg, #1E293B 0%, #0F172A 100%);
+            padding: 60px 0;
+            text-align: center;
+        }
+        
+        .social-links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 30px;
+        }
+        
+        .social-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: rgba(99, 102, 241, 0.1);
+            color: var(--primary);
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+        
+        .social-link:hover {
+            background: var(--primary);
+            color: white;
+            transform: translateY(-3px);
+        }
+        
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 30px 0;
+            background: #0A0F1C;
+            color: var(--gray);
+            font-size: 0.9rem;
+        }
+        
+        .quote {
+            font-style: italic;
+            margin-top: 20px;
+            color: var(--gray-light);
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .name {
+                font-size: 2rem;
+            }
+            
+            .typing-text {
+                font-size: 1.2rem;
+            }
+            
+            .tools-grid {
+                grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+            }
+            
+            .model-container {
+                height: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="profile-img">DE</div>
+            <h1 class="name">Dinkaira Elsa</h1>
+            <p class="tagline">UI/UX Designer | Frontend Developer | Creative Problem Solver</p>
+            <div class="typing-container">
+                <div class="typing-text">Building Amazing Digital Experiences</div>
+            </div>
+        </div>
+    </header>
 
-# Hi 👋, I'm Dinkaira Elsa
+    <!-- About Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hi! I'm <strong>Dinkaira Elsa</strong>, a passionate <strong>UI/UX Designer & Frontend Developer</strong> with a keen eye for creating seamless, intuitive digital experiences and building scalable frontend architectures.</p>
+                    
+                    <p><strong>Current Focus:</strong></p>
+                    <ul class="focus-list">
+                        <li>Building intuitive user interfaces</li>
+                        <li>Creating seamless user experiences</li>
+                        <li>Frontend development with modern frameworks</li>
+                        <li>Design systems and component libraries</li>
+                    </ul>
+                    
+                    <p><strong>Life Philosophy:</strong><br>
+                    <em>"Design is not just what it looks like – design is how it works."</em></p>
+                </div>
+                
+                <!-- 3D Model Container -->
+                <div class="model-container">
+                    <canvas id="model-canvas"></canvas>
+                </div>
+            </div>
+        </div>
+    </section>
 
-</div>
+    <!-- Tools Section -->
+    <section class="tools-section">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            
+            <div class="tools-category">
+                <h3 class="category-title">Design & Creativity</h3>
+                <div class="tools-grid">
+                    <div class="tool-item">
+                        <div class="tool-icon">🎨</div>
+                        <div class="tool-name">Figma</div>
+                    </div>
+                    <div class="tool-item">
+                        <div class="tool-icon">✏️</div>
+                        <div class="tool-name">Illustrator</div>
+                    </div>
+                    <div class="tool-item">
+                        <div class="tool-icon">🖼️</div>
+                        <div class="tool-name">Photoshop</div>
+                    </div>
+                    <div class="tool-item">
+                        <div class="tool-icon">🚀</div>
+                        <div class="tool-name">Framer</div>
+                    </div>
+                    <div class="tool-item">
+                        <div class="tool-icon">🎬</div>
+                        <div class="tool-name">After Effects</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tools-category">
+                <h3 class="category-title">Frontend Development</h3>
+                <div class="tools-grid">
+                    <div class="tool-item">
+                        <div class="tool-icon">⚛️</div>
+                        <div class="tool-name">React</div>
+                    </div>
+                    <div class="tool-item">
+                        <div class="tool-icon">🅰️</div>
+                        <div class="tool-name">Angular</div>
+                    </div>
+                    <div class="tool-item">
+                        <div class="tool-icon">📦</div>
+                        <div class="tool-name">Vue.js</div>
+                    </div>
+                    <div class="tool-item">
+                        <div class="tool-icon">📱</div>
+                        <div class="tool-name">React Native</div>
+                    </div>
+                    <div class="tool-item">
+                        <div class="tool-icon">🔄</div>
+                        <div class="tool-name">Redux</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tools-category">
+                <h3 class="category-title">Styling & UI Frameworks</h3>
+                <div class="tools-grid">
+                    <div class="tool-item">
+                        <div class="tool-icon">🎐</div>
+                        <div class="tool-name">Tailwind</div>
+                    </div>
+                    <div class="tool-item">
+                        <div class="tool-icon">🅱️</div>
+                        <div class="tool-name">Bootstrap</div>
+                    </div>
+                    <div class="tool-item">
+                        <div class="tool-icon">🎨</div>
+                        <div class="tool-name">CSS3</div>
+                    </div>
+                    <div class="tool-item">
+                        <div class="tool-icon">📄</div>
+                        <div class="tool-name">HTML5</div>
+                    </div>
+                    <div class="tool-item">
+                        <div class="tool-icon">💎</div>
+                        <div class="tool-name">SASS</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tools-category">
+                <h3 class="category-title">Programming Languages</h3>
+                <div class="tools-grid">
+                    <div class="tool-item">
+                        <div class="tool-icon">🟨</div>
+                        <div class="tool-name">JavaScript</div>
+                    </div>
+                    <div class="tool-item">
+                        <div class="tool-icon">🔷</div>
+                        <div class="tool-name">TypeScript</div>
+                    </div>
+                    <div class="tool-item">
+                        <div class="tool-icon">🐍</div>
+                        <div class="tool-name">Python</div>
+                    </div>
+                    <div class="tool-item">
+                        <div class="tool-icon">☕</div>
+                        <div class="tool-name">Java</div>
+                    </div>
+                    <div class="tool-item">
+                        <div class="tool-icon">➕</div>
+                        <div class="tool-name">C++</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <h2 class="section-title">GitHub Statistics</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">25+</div>
+                    <div class="stat-label">Happy Clients</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">3+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">Technologies</div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=UI%2FUX+Designer;Frontend+Developer;Creative+Problem+Solver;Building+Amazing+Experiences" alt="Typing SVG" />
-</div>
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Connect With Me</h2>
+            <p>Let's collaborate and create something amazing together!</p>
+            
+            <div class="social-links">
+                <a href="https://twitter.com/dink_sira" class="social-link" target="_blank">
+                    🐦
+                </a>
+                <a href="https://www.linkedin.com/in/dinksira-elsa-13904b319/" class="social-link" target="_blank">
+                    💼
+                </a>
+                <a href="https://instagram.com/dink.sira" class="social-link" target="_blank">
+                    📸
+                </a>
+                <a href="https://www.behance.net/dinksira%20elsa%20samuel" class="social-link" target="_blank">
+                    🎨
+                </a>
+                <a href="https://www.upwork.com/freelancers/~0169e7871bfcb02264?mp_source=share" class="social-link" target="_blank">
+                    💻
+                </a>
+            </div>
+        </div>
+    </section>
 
-<h3 align="center">🎨 UI/UX Designer | 💻 Frontend Developer | 🎬 Video Editor</h3>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 Dinkaira Elsa. All rights reserved.</p>
+            <p class="quote">"Design is not just what it looks like and feels like. Design is how it works." - Steve Jobs</p>
+        </div>
+    </footer>
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=dinksira&label=Profile%20views&color=6366f1&style=for-the-badge" alt="dinksira" />
-  <img src="https://img.shields.io/github/followers/dinksira?label=Followers&style=for-the-badge&color=6366f1" alt="followers" />
-</div>
-
----
-
-## 🚀 About Me
-
-Hi! I'm **Dinkaira Elsa**, a passionate **UI/UX Designer & Frontend Developer**  
-I love creating seamless, intuitive digital experiences and building scalable frontend architectures.
-
-**Current Focus:**
-- Building intuitive user interfaces
-- Creating seamless user experiences
-- Frontend development with modern frameworks
-- Design systems and component libraries
-
-**Life Philosophy:**  
-*"Design is not just what it looks like – design is how it works."*
-
-
----
-
-## 🌐 Connect with Me
-
-<div align="center">
-  
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/dink_sira)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dinksira-elsa-13904b319/)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/dink.sira)
-[![Behance](https://img.shields.io/badge/Behance-1769FF?style=for-the-badge&logo=behance&logoColor=white)](https://www.behance.net/dinksira%20elsa%20samuel)
-[![Upwork](https://img.shields.io/badge/Upwork-6FDA44?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~0169e7871bfcb02264?mp_source=share)
-
-</div>
-
-<div align="center">
-  <a href="https://twitter.com/dink_sira" target="blank">
-    <img src="https://img.shields.io/twitter/follow/dink_sira?logo=twitter&style=for-the-badge&color=1da1f2" alt="dink_sira" />
-  </a>
-</div>
-
----
-
-## 🛠️ Languages and Tools
-
-### 🎨 Design & Creativity
-<p align="left">
-  <a href="https://www.figma.com/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/>
-  </a>
-  <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/>
-  </a>
-  <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/>
-  </a>
-  <a href="https://www.framer.com/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/framer/framer-icon.svg" alt="framer" width="40" height="40"/>
-  </a>
-</p>
-
-### 💻 Frontend Development
-<p align="left">
-  <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/>
-  </a>
-  <a href="https://angular.io" target="_blank" rel="noreferrer">
-    <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="40" height="40"/>
-  </a>
-  <a href="https://vuejs.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/>
-  </a>
-  <a href="https://reactnative.dev/" target="_blank" rel="noreferrer">
-    <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/>
-  </a>
-  <a href="https://redux.js.org" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/>
-  </a>
-</p>
-
-### 🎨 Styling & UI Frameworks
-<p align="left">
-  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/>
-  </a>
-  <a href="https://getbootstrap.com" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/>
-  </a>
-  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
-  </a>
-  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
-  </a>
-</p>
-
-### 🚀 Programming Languages
-<p align="left">
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
-  </a>
-  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/>
-  </a>
-  <a href="https://www.python.org" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
-  </a>
-  <a href="https://www.java.com" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/>
-  </a>
-  <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/>
-  </a>
-  <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/>
-  </a>
-  <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/>
-  </a>
-  <a href="https://www.php.net" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/>
-  </a>
-</p>
-
-### 📱 Mobile Development
-<p align="left">
-  <a href="https://developer.android.com" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/>
-  </a>
-  <a href="https://dart.dev" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="40" height="40"/>
-  </a>
-  <a href="https://kotlinlang.org" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="kotlin" width="40" height="40"/>
-  </a>
-</p>
-
-### 🗄️ Backend & Database
-<p align="left">
-  <a href="https://nodejs.org" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/>
-  </a>
-  <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/>
-  </a>
-  <a href="https://firebase.google.com/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/>
-  </a>
-</p>
-
-### 🛠️ Tools & Technologies
-<p align="left">
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
-  </a>
-  <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/>
-  </a>
-</p>
-
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=dinksira&theme=radical&no-frame=false&no-bg=false&margin-w=4&row=1" alt="GitHub Trophies" />
-</div>
-
----
-
-## 📊 GitHub Statistics
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=dinksira&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=6366f1&icon_color=6366f1&text_color=ffffff"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dinksira&layout=compact&langs_count=8&theme=radical&hide_border=true&bg_color=0d1117&title_color=6366f1&text_color=ffffff"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dinksira&theme=radical&hide_border=true&background=0D1117&stroke=6366f1&ring=6366f1&fire=6366f1&currStreakLabel=ffffff" alt="GitHub Streak" />
-</div>
-
----
-
-  
-### 💫 "Design is not just what it looks like and feels like. Design is how it works." - Steve Jobs
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&text=Thanks%20for%20visiting!&fontSize=24&fontColor=ffffff&animation=twinkling" width="100%"/>
-
-</div>
+    <script>
+        // 3D Model Setup
+        let scene, camera, renderer, controls;
+        let computer;
+        
+        function init() {
+            // Create scene
+            scene = new THREE.Scene();
+            scene.background = new THREE.Color(0x0F172A);
+            
+            // Create camera
+            camera = new THREE.PerspectiveCamera(75, 1, 0.1, 1000);
+            camera.position.z = 5;
+            
+            // Create renderer
+            const canvas = document.getElementById('model-canvas');
+            renderer = new THREE.WebGLRenderer({ canvas, antialias: true });
+            renderer.setSize(canvas.clientWidth, canvas.clientHeight);
+            renderer.setPixelRatio(window.devicePixelRatio);
+            
+            // Add lights
+            const ambientLight = new THREE.AmbientLight(0x6366F1, 0.5);
+            scene.add(ambientLight);
+            
+            const directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+            directionalLight.position.set(5, 5, 5);
+            scene.add(directionalLight);
+            
+            const pointLight = new THREE.PointLight(0x6366F1, 0.5);
+            pointLight.position.set(-5, -5, 5);
+            scene.add(pointLight);
+            
+            // Create computer model
+            createComputer();
+            
+            // Add orbit controls
+            controls = new THREE.OrbitControls(camera, renderer.domElement);
+            controls.enableDamping = true;
+            controls.dampingFactor = 0.05;
+            
+            // Handle window resize
+            window.addEventListener('resize', onWindowResize);
+            
+            // Start animation
+            animate();
+        }
+        
+        function createComputer() {
+            const group = new THREE.Group();
+            
+            // Monitor
+            const monitorGeometry = new THREE.BoxGeometry(3, 2, 0.2);
+            const monitorMaterial = new THREE.MeshPhongMaterial({ 
+                color: 0x1E293B,
+                shininess: 30
+            });
+            const monitor = new THREE.Mesh(monitorGeometry, monitorMaterial);
+            monitor.position.y = 1;
+            group.add(monitor);
+            
+            // Screen
+            const screenGeometry = new THREE.PlaneGeometry(2.8, 1.8);
+            const screenMaterial = new THREE.MeshBasicMaterial({ 
+                color: 0x6366F1,
+                emissive: 0x6366F1,
+                emissiveIntensity: 0.3
+            });
+            const screen = new THREE.Mesh(screenGeometry, screenMaterial);
+            screen.position.set(0, 1, 0.11);
+            group.add(screen);
+            
+            // Stand
+            const standGeometry = new THREE.CylinderGeometry(0.1, 0.3, 1, 8);
+            const standMaterial = new THREE.MeshPhongMaterial({ 
+                color: 0x334155,
+                shininess: 50
+            });
+            const stand = new THREE.Mesh(standGeometry, standMaterial);
+            stand.position.y = -0.5;
+            group.add(stand);
+            
+            // Base
+            const baseGeometry = new THREE.CylinderGeometry(0.8, 0.8, 0.2, 16);
+            const baseMaterial = new THREE.MeshPhongMaterial({ 
+                color: 0x1E293B,
+                shininess: 30
+            });
+            const base = new THREE.Mesh(baseGeometry, baseMaterial);
+            base.position.y = -1.1;
+            group.add(base);
+            
+            // Keyboard
+            const keyboardGeometry = new THREE.BoxGeometry(2.5, 0.1, 1);
+            const keyboardMaterial = new THREE.MeshPhongMaterial({ 
+                color: 0x0F172A,
+                shininess: 20
+            });
+            const keyboard = new THREE.Mesh(keyboardGeometry, keyboardMaterial);
+            keyboard.position.set(0, -1.2, 1.2);
+            group.add(keyboard);
+            
+            scene.add(group);
+            computer = group;
+        }
+        
+        function onWindowResize() {
+            const container = document.querySelector('.model-container');
+            camera.aspect = container.clientWidth / container.clientHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(container.clientWidth, container.clientHeight);
+        }
+        
+        function animate() {
+            requestAnimationFrame(animate);
+            
+            if (computer) {
+                computer.rotation.y += 0.005;
+            }
+            
+            controls.update();
+            renderer.render(scene, camera);
+        }
+        
+        // Initialize when page loads
+        window.addEventListener('load', init);
+    </script>
+</body>
+</html>

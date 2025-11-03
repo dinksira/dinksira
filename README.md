@@ -1,6 +1,9 @@
 <div align="center">
 
-# 👋 Dinkaira Elsa
+# 
+<h1 style="font-size: 2.5em; margin: 20px 0; background: linear-gradient(45deg, #6366f1, #8b5cf6, #6366f1); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-size: 200% 200%; animation: gradientShift 3s ease infinite;">
+  Hi 👋, I'm Dinkaira Elsa
+</h1>
 
 ### Senior UI/UX Designer & Frontend Developer
 

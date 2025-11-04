@@ -7,7 +7,7 @@
 
 <!-- Animated Subtitle -->
 <p style="font-size: 1.2em; font-weight: 500; margin-bottom: 10px; animation: fadeInDown 0.8s ease-out;">
-  🎨 UI/UX Designer | 💻 Frontend Developer | 🎬 Creative Developer
+  🎨 UI/UX Designer | 💻 Frontend Developer | 🎬 Video Editor
 </p>
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=4000&pause=500&color=6366F1&center=true&vCenter=true&width=700&lines=Crafting+Beautiful+Interfaces;Building+Scalable+Solutions;Designing+User+Experiences;Code+%2B+Design+%3D+Magic" alt="Typing SVG" />

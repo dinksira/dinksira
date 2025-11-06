@@ -104,19 +104,6 @@ I'm a results-driven **UI/UX Designer & Frontend Developer** with expertise in b
 
 ---
 
-## 🚀 Featured Projects
-
-### Design System Excellence
-Architected a comprehensive design system with **components** serving multiple product lines, resulting in **faster feature delivery** and consistent UX across all platforms.
-
-### Performance & Scale
-Led a major frontend refactoring, implementing code-splitting and lazy loading techniques that improved **Lighthouse scores** and reduced Core Web Vitals issues.
-
-### Mobile Innovation
-Designed and developed a native mobile experience using **React Native**.
-
----
-
 ## 🛠️ Supporting Skills
 
 **Development Tools & Workflows**

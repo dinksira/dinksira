@@ -23,16 +23,6 @@
 
 I'm a results-driven **UI/UX Designer & Frontend Developer** with expertise in building scalable design systems and user-centered applications. I specialize in translating complex requirements into intuitive interfaces while maintaining clean, maintainable code architecture.
 
-**Core Competencies:**
-- **Design Systems & Component Libraries** — Building reusable, accessible design patterns
-- **User Experience Strategy** — Research-driven design decisions and user testing
-- **Frontend Architecture** — React ecosystems, state management, performance optimization
-- **Design-to-Code** — Bridging design and development for pixel-perfect implementations
-- **Accessibility & Performance** — WCAG compliance and Core Web Vitals optimization
-
-**Philosophy:**  
-*"Great design is invisible. It solves problems elegantly while delighting users at every interaction."*
-
 ---
 
 ## 🎨 Design & UX Expertise
@@ -137,12 +127,6 @@ Designed and developed a native mobile experience using **React Native**.
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/CI%2FCD-2496ED?style=for-the-badge&logo=github-actions&logoColor=white" alt="CI/CD" />
 </p>
-
-**Additional Expertise**
-- **UX Research** — User interviews, wireframing, prototyping, A/B testing
-- **Accessibility** — semantic HTML, screen reader optimization
-- **Performance** — Web optimization, bundle analysis, caching strategies
-- **DevOps Awareness** — Docker, basic deployment, environment configuration
 
 ---
 

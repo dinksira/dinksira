@@ -25,8 +25,6 @@ I'm a results-driven **UI/UX Designer & Frontend Developer** with expertise in b
 
 ---
 
-## 🎨 Design & UX Expertise
-
 ### Design Tools & Platforms
 <p align="center">
   <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />

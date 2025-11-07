@@ -19,7 +19,7 @@
   </svg>
 </div>
 
-## 🎯 Professional Overview
+## 🎯 Overview
 
 I'm a results-driven **UI/UX Designer & Frontend Developer** with expertise in building scalable design systems and user-centered applications. I specialize in translating complex requirements into intuitive interfaces while maintaining clean, maintainable code architecture.
 

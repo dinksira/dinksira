@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/cover.png" alt="Cover image" width="100%" />
+<img src="./cover.png" alt="Cover image" width="100%" />
 
 # Hi, I'm Dinkaira Elsa 👋
 

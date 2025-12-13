@@ -8,7 +8,7 @@ I design clean user experiences and build modern, scalable web interfaces.
 
 ---
 
-### 🧰 Tools & Stack
+### Tools & Stack
 
 <p align="center">
   <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
@@ -20,13 +20,13 @@ I design clean user experiences and build modern, scalable web interfaces.
 
 ---
 
-### 📊 GitHub
+### GitHub
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dinksira&layout=compact&theme=tokyonight&hide_border=true" />
 
 ---
 
-### 📬 Connect
+### Connect
 
 <p align="center">
   <a href="mailto:dinksiraelisa@gmail.com" target="_blank">

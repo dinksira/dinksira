@@ -28,6 +28,16 @@ I design clean user experiences and build modern, scalable web interfaces.
 
 ### 📬 Connect
 
-[Email](mailto:dinksiraelisa@gmail.com) • [LinkedIn](https://www.linkedin.com/in/dinksira-elsa-13904b319/) • [Portfolio](https://dinksiraelsa.vercel.app/)
+<p align="center">
+  <a href="mailto:dinksiraelisa@gmail.com" target="_blank">
+    <img src="https://img.icons8.com/ios-filled/50/000000/new-post.png" alt="Email" />
+  </a>
+  <a href="https://www.linkedin.com/in/dinksira-elsa-13904b319/" target="_blank">
+    <img src="https://img.icons8.com/ios-filled/50/0A66C2/linkedin.png" alt="LinkedIn" />
+  </a>
+  <a href="https://dinksiraelsa.vercel.app/" target="_blank">
+    <img src="https://img.icons8.com/ios-filled/50/000000/domain.png" alt="Portfolio" />
+  </a>
+</p>
 
 </div>

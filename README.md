@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/cover.png" alt="Cover image" width="100%" />
+
 # Hi, I'm Dinkaira Elsa 👋
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=800&color=6366F1&center=true&vCenter=true&width=500&lines=UI%2FUX+Designer;Frontend+Developer;Video+Editor" alt="Typing animation" />

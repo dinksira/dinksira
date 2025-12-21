@@ -35,7 +35,7 @@ I design clean user experiences and build modern, scalable web interfaces.
   <a href="https://www.linkedin.com/in/dinksira-elsa-13904b319/" target="_blank">
     <img src="https://img.icons8.com/ios-filled/50/0A66C2/linkedin.png" alt="LinkedIn" />
   </a>
-  <a href="https://dinksiraelsa.vercel.app/" target="_blank">
+  <a href="https://dinkportfolio.vercel.app/" target="_blank">
     <img src="https://img.icons8.com/ios-filled/50/000000/domain.png" alt="Portfolio" />
   </a>
 </p>

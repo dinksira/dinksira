@@ -1,6 +1,6 @@
 <div align="center">
 
-**Full Stack Developer | Web App | Mobile Apps | React Native**
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=800&pause=200&color=e8b602&center=true&vCenter=true&width=500&lines=Full+Stack+Developer;Web+App;Mobile+Apps;React+Native" alt="Typing animation" />
 
 <p>
   <a href="mailto:dinksiraelisa@gmail.com">
